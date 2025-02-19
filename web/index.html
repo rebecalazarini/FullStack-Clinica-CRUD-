@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Clinica Médica</title>
+</head>
+<body>
+   <header>
+    <h1>Provisorio</h1>
+   </header>
+   <main>
+    <section>
+        <form>
+            <h2>Agendar Consulta</h2>
+            <input type="text" name="paciente" placeholder="Nome do paciente" required>
+            <input type="text" name="medico" placeholder="Nome do médico" required>
+            <input type="datetime-local" name="data" required>
+            <button type="submit">Agendar</button>
+            <br>
+            <br>
+            <h2>Excluir Consulta</h2>
+            <input type="number" id="consulta-id" placeholder="ID da consulta">
+        <button id="botao-excluir">Excluir Consulta</button>
+        <br>
+        <br>
+        <br>
+        <h2>Atualizar Consulta</h2>
+        <input type="number" id="consulta-id-update" placeholder="ID da consulta" required>
+        <input type="text" id="paciente-update" placeholder="Nome do paciente" required>
+        <input type="text" id="medico-update" placeholder="Nome do médico" required>
+        <input type="datetime-local" id="data-update" required>
+        <button id="botao-atualizar">Atualizar Consulta</button>
+        </form>
+    </section>
+    <section>
+    <table>
+        <thead>
+            <th>Id</th>
+            <th>Paciente</th>
+            <th>Medico</th>
+            <th>Data e Hora</th>
+        
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+</section>
+   </main>
+   <footer>
+    <h2>By rebecalazarini</h2>
+</footer> 
+</body>
+<script src="index.js"></script>
+</html>
