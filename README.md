@@ -12,8 +12,15 @@
 - Banco de dados (MySql)
 
 ## Com testar
-- Clone o repositório
-- Coloque o banco de dados (MySql) em execução
-- Instale as dependencias necessárias ( npm init, npm i express cors mysql, npx noodemon)
-- Execute na web de sua preferencia
-- Teste a vontade
+- 1 clone este repositório
+- 2 Abra o XAMPP, de start em MySQL, abra um shell e acesse o MySQL [mysl -u root]
+- 3 Compie o script de população do banco de dados ./docs/bd.sql
+- 4 Abra a pasta raíz com VsCode
+- 5 Abra um terminal CTRL + ' do tipo cmd ou bash e execute os comandos
+  cd api
+  npm install
+  npm start
+   ou
+  npx nodemon
+  - 6 Para executar o front-end abra o arquivo ./web/index.html com o navegador ou Live Server do VsCode.
+  - 7 Para testes importe o arquivo ./docs/insomnia.json no Insomnia
