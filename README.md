@@ -14,7 +14,7 @@
 ## Com testar
 - 1 clone este repositório
 - 2 Abra o XAMPP, de start em MySQL, abra um shell e acesse o MySQL [mysl -u root]
-- 3 Compie o script de população do banco de dados ./docs/bd.sql
+- 3 Compie o script de população do banco de dados ./docs/db.sql
 - 4 Abra a pasta raíz com VsCode
 - 5 Abra um terminal CTRL + ' do tipo cmd ou bash e execute os comandos
   - cd api
